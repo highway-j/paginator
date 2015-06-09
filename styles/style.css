@@ -1,0 +1,151 @@
+/* My Shit */
+#display-zone2.show-zone {
+    opacity: 1;
+    height: 400px;
+}
+
+#closeThis {
+  float: right;
+  margin-top: 80px;
+  margin-right: 125px;
+  font-size: 28px;
+  color: black;
+  z-index: 1000;
+  cursor: pointer!important;
+}
+
+.thumbnail {
+    max-width: 360px;
+    max-height: 240px;
+}
+
+#display-zone2 {
+    opacity: 0;
+    height: 0px;
+    -webkit-transition: 1.5s;
+    transition: 0.8s;
+}
+
+.btn {
+  border: 2px #000 solid!important;
+  padding: 1em 2em 1em 2em!important;
+  color: #fff;
+  background-color: #000;
+  border-radius: 0!important;
+}
+
+.btn:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+.image-load img {
+    margin-top: 80px;
+}
+
+li.span3 {
+  width: 23.6%;
+  display: inline-block;
+}
+
+img { max-width:100%; }
+
+a.carousel-control {
+  top: 96%;
+}
+
+/* .carousel-control.left {
+    margin-left: 40px;
+}
+
+.carousel-control.right {
+    margin-right: 66px;
+} */
+
+.display-zone3 {
+    display:block!important;
+    opacity: 1;
+    transition: 1.2s;
+}
+
+.image-load {
+    /* border: 1px black solid; */
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.description-load {
+    /* border: 1px black solid; */
+    width: 60%;
+    height: 100%;
+    float: right;
+    margin-right: 66px;
+}
+
+.description-load .content {
+  position: absolute;
+  text-align: left;
+  transform: translate(0, 20%);
+  margin: 23px 50px 0 50px;
+  max-width: 350px;
+}
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
+    }
+    .carousel-control{
+        background: #666;
+        border: 0px;
+        border-radius: 0px;
+        display: inline-block;
+        font-size: 34px;
+        font-weight: 200;
+        line-height: 18px;
+        opacity: 0.5;
+        padding: 4px 10px 0px;
+        position: static;
+        height: 30px;
+        width: 15px;
+        }
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+    text-align: center;
+    } 
+}
+@media (max-width: 479px) {
+    .caption {
+    word-break: break-all;
+    }
+}
+
+@media (max-width: 1089px) {
+    .image-load{
+        width: 25%;
+        height: 300px;
+    }
+    .description-load {
+        width: 55%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 559px) {
+    .display-zone3 {
+        display:block;
+    }
+    .image-load{
+        margin: 0;
+        width: 100%;
+    }
+    .description-load {
+        margin: 0;
+        width: 100%;
+    }
+}
